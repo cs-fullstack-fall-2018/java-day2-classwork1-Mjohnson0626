@@ -5,10 +5,20 @@ public class EX9 {
     public static void main(String[] args) {
         Scanner userinput = new Scanner(System.in);
         String password = "This is the password";
-        String userguess = userinput.nextLine();
+        String passwordguess = userinput.nextLine();
 
         System.out.println("Enter passcode");
-        System.out.println(userguess);
+
+        while (! passwordguess.equals (password)){
+            System.out.println("WRONG!!");
+            System.out.println("Enter passcode");
+            passwordguess = userinput.nextLine();
+
+            if (passwordguess == password);
+            System.out.println("CORRECT!!");
+
+
+        }
 
 
 
