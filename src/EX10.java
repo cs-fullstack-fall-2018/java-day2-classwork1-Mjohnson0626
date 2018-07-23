@@ -4,6 +4,16 @@ public class EX10 {
 
     public static void main(String[] args) {
 
-        System.out.println(0);
+        int count = 0;
+
+            while (count<101);{
+                System.out.println(count);
+                count += 1;
+
+
+        }
+
+
+
     }
 }
